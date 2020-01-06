@@ -4,6 +4,10 @@
 
 NodeJS(latest LTS version)
 
+&
+
+Yarn
+
 # Dependencies installation
 
 `yarn install` or `yarn`
