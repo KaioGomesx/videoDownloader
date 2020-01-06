@@ -10,4 +10,9 @@ video.on("info", () => {
   console.log("Download started");
 });
 
+const outputDir = `${__dirname}/dist`;
+
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
+}
 video.pipe(fs.createWriteStream("./dist/video.mp4"));
