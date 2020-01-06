@@ -1,4 +1,4 @@
-import ffmpeg from "fluent-ffmpeg";
+const ffmpeg = require("fluent-ffmpeg");
 
 ffmpeg("dist/video.mp4")
   .setStartTime("00:00:15")

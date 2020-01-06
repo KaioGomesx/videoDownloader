@@ -1,5 +1,5 @@
-import fs from "fs";
-import youtubedl from "youtube-dl";
+const fs = require("fs");
+const youtubedl = require("youtube-dl");
 
 const video = youtubedl("https://www.youtube.com/watch?v=B9wvTuDC-H0", [
   "--format=18"
