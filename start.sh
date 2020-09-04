@@ -1,5 +1,5 @@
 #!/bin/env bash
 
-mkdir dist
-node src/index.js
+mkdir dist 2> /dev/null
+node src/index.js $1
 node src/cut.js
